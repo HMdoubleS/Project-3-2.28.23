@@ -56,9 +56,16 @@
 
 @media screen and (max-width: 992px) and (min-width: 767px) {
 
-    .header__return {
-        top: 3%;
-        left: 5%;
+    // * {
+    //     max-width: 992px;
+    //     margin: 0 auto;
+    // }
+
+    .header__return-arrow {
+        top: 1%;
+        border: 3px solid red;
+        // margin-bottom: 10px;
+        // left: 5%;
     }
 
     .menu__image {

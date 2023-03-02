@@ -1,3 +1,4 @@
+/*--PHONE LAYOUT--*/
 @media screen and (max-width: 767px) { 
 
     .header__logo {
@@ -88,11 +89,7 @@
 
 
 @media screen and (max-width: 992px) and (min-width: 767px) {
-    * {
-        max-width: 992px;
-        margin: 0 auto;
-    }  
-
+    
     .header__logo {
         height: 75px;
         width: 40%;
@@ -280,12 +277,6 @@
         }
 
     }
-
-
-
-
-
-
 }
 
 

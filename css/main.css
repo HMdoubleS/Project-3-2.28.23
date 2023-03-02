@@ -231,6 +231,7 @@ i {
   margin-right: 10px;
 }
 
+/*--PHONE LAYOUT--*/
 @media screen and (max-width: 767px) {
   .header__logo {
     height: 55px;
@@ -300,10 +301,6 @@ i {
   }
 }
 @media screen and (max-width: 992px) and (min-width: 767px) {
-  * {
-    max-width: 992px;
-    margin: 0 auto;
-  }
   .header__logo {
     height: 75px;
     width: 40%;
@@ -483,9 +480,9 @@ i {
   }
 }
 @media screen and (max-width: 992px) and (min-width: 767px) {
-  .header__return {
-    top: 3%;
-    left: 5%;
+  .header__return-arrow {
+    top: 1%;
+    border: 3px solid red;
   }
   .menu__image {
     height: 200px;
@@ -582,6 +579,7 @@ i {
   }
   .header__menu .header__return {
     display: inline-block;
+    margin-right: 30%;
     position: absolute;
   }
   .header__menu i {
@@ -590,6 +588,9 @@ i {
   .header__menu .header__title {
     text-align: center;
     margin: 15px 0;
+  }
+  .header__menu .header__return-arrow {
+    border: 3px solid red;
   }
   .menu__containers {
     position: relative;
