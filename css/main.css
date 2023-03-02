@@ -442,130 +442,212 @@ i {
   }
 }
 @media screen and (max-width: 767px) {
-  .header__return {
-    top: 4%;
-    left: 10%;
+  .header__logo {
+    height: 55px;
+    width: 50%;
   }
-  .menu__image {
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: column;
+  }
+  .booking__info {
+    margin-left: 30px;
+  }
+  /*-- EXPLANATION--*/
+  .explanation {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 200px;
   }
-  .menu__title {
-    margin: 15px 0 0 18px;
+  .explanation__wrap {
+    display: flex;
+    flex-direction: column;
   }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 2%;
-    left: 89%;
+  .explanation__num {
+    left: -12px;
   }
-  /*-- CARDS--*/
-  .menu__choices-title {
-    margin: 30px 0 20px 18px;
+  .explanation__button {
+    width: 80%;
+    margin: 0 0 15px 25px;
   }
-  .menu__card {
-    width: 90%;
-    margin-left: 18px;
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
   }
-  .menu__price {
-    padding: 0 8px 8px 50px;
+  .restaurant__wrap {
+    display: flex;
+    flex-direction: column;
   }
-  .menu__text {
-    width: 75%;
+  .restaurant__title {
+    margin-left: 35px;
   }
-  .menu__card:hover .menu__text {
-    width: 52%;
+  .restaurant__card {
+    margin-left: 35px;
+    width: 300px;
   }
-  .menu__description {
-    font-size: 14px;
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 150px;
+  }
+  .restaurant__card-img-1 {
+    -o-object-position: left bottom;
+       object-position: left bottom;
+  }
+  .restaurant__card-img-2 {
+    -o-object-position: 0px -137px;
+       object-position: 0px -137px;
+  }
+  .restaurant__card-img-3 {
+    -o-object-position: 0px -50px;
+       object-position: 0px -50px;
+  }
+  .restaurant__card-img-4 {
+    -o-object-position: 0px -50px;
+       object-position: 0px -50px;
+  }
+  .restaurant__card-icon {
+    right: 13.5%;
+    top: 76.8%;
   }
 }
 @media screen and (max-width: 992px) and (min-width: 767px) {
-  .header__return-arrow {
-    top: 1%;
-    border: 3px solid red;
+  .header__logo {
+    height: 75px;
+    width: 40%;
   }
-  .menu__image {
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .booking__info {
+    margin-left: 35px;
+  }
+  .booking .btn-gradient {
+    margin-right: 150px;
+  }
+  /*-- EXPLANATION--*/
+  .explanation__wrap {
+    margin-left: 18px;
+    flex-direction: column;
+  }
+  .explanation__num {
+    left: -11px;
+  }
+  .explanation__button {
+    width: 90%;
+    margin: 0 15px 20px 18px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurant__title {
+    margin-left: 30px;
+  }
+  .restaurant__card {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
     height: 200px;
   }
-  .menu__title {
-    margin: 15px 0 0 40px;
+  .restaurant__card-img-1 {
+    -o-object-position: 0px -150px;
+       object-position: 0px -150px;
   }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 2.2%;
-    left: 92.5%;
+  .restaurant__card-img-2 {
+    -o-object-position: 0px -330px;
+       object-position: 0px -330px;
   }
-  /*-- CARDS--*/
-  .menu__choices-title {
-    margin: 30px 0 20px 40px;
+  .restaurant__card-img-3 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
   }
-  .menu__card {
-    width: 90%;
-    margin-left: 40px;
+  .restaurant__card-img-4 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
   }
-  .menu__text {
-    width: 88%;
-  }
-  .menu__price {
-    padding: 0 8px 8px 50px;
-  }
-  .menu__description {
-    font-size: 14px;
-  }
-  .menu__card:hover .menu__text {
-    width: 70%;
+  .restaurant__card-icon {
+    top: 80%;
+    right: 8%;
   }
 }
 @media screen and (min-width: 993px) {
-  * {
-    padding: 0;
-    margin: 0;
+  .header__logo {
+    height: 100px;
+    width: 28%;
   }
-  .header__return {
-    top: 4.5%;
-    left: 2%;
-  }
-  .menu__image {
-    height: 200px;
-  }
-  .menu__title {
-    margin: 15px 0 0 35px;
-  }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 6.5%;
-    left: 97.2%;
-  }
-  /*-- CARDS--*/
-  .menu__choices {
-    display: flex;
+  /*-- BOOKING--*/
+  .booking__wrapper {
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
-  .menu__entrees,
-  .menu__main-dish,
-  .menu__dessert {
+  .booking__info {
+    margin-left: 40px;
+  }
+  .booking .btn-gradient {
+    margin: 30px 80px 25px 0;
+  }
+  /*-- EXPLANATION--*/
+  .explanation__wrap {
+    flex-direction: row;
+    margin-left: 30px;
+  }
+  .explanation__num {
+    margin-left: 55px;
+    left: -63px;
+  }
+  .explanation__button {
+    width: 29%;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 25px;
+  }
+  .explanation__icon {
+    font-size: 18px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__container {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    margin-left: 20px;
   }
-  .menu__choices-title {
-    width: 85%;
-    margin: 30px 0 20px 35px;
+  .restaurant__title {
+    margin-left: 30px;
   }
-  .menu__card {
-    width: 90%;
-    margin-left: 35px;
+  .restaurant__card {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 45%;
   }
-  .menu__text {
-    width: 82%;
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 150px;
   }
-  .menu__price {
-    padding: 5px 8px 8px 50px;
+  .restaurant__card-img-1 {
+    -o-object-position: 0px -165px;
+       object-position: 0px -165px;
   }
-  .menu__card:hover .menu__text {
-    width: 55%;
+  .restaurant__card-img-3 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
   }
-  .menu__description {
-    font-size: 14px;
+  .restaurant__card-img-4 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
+  }
+  .restaurant__card-icon {
+    top: 76.8%;
+    right: 9.5%;
   }
 }
 @media screen and (min-width: 0px) {
@@ -579,7 +661,6 @@ i {
   }
   .header__menu .header__return {
     display: inline-block;
-    margin-right: 30%;
     position: absolute;
   }
   .header__menu i {
@@ -588,9 +669,6 @@ i {
   .header__menu .header__title {
     text-align: center;
     margin: 15px 0;
-  }
-  .header__menu .header__return-arrow {
-    border: 3px solid red;
   }
   .menu__containers {
     position: relative;
