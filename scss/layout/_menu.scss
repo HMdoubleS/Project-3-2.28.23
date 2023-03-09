@@ -106,9 +106,10 @@
         
         .menu__price {
             display: flex;
+            // border: 3px solid red;
             font-weight: bold;
             align-items: flex-end;
-            width: 25%;
+            // width: 50%;
         }
 
         .menu__text {
@@ -141,7 +142,7 @@
         }
 
         .menu__holder {
-            width: 25%;
+            // width: 40%;
             display: inline-flex;
             align-items: center;
             justify-content: center;
